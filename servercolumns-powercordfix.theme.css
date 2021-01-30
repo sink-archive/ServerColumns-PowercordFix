@@ -1,0 +1,30 @@
+/* Original theme contents here */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+
+:root {
+    --columns:    3; /* default:  3   (amount of servercolumns) */
+    
+    --guildsize: 50; /* default: 50   (serversize in pixel) */
+    --guildgap:   3; /* default:  3   (top/bottom gap between servers in pixel) */
+    
+    --aligndms:   1; /* default:  0   (should DMs be aligned in columns: 0 = no, 1 = yes) */
+}
+
+
+/* This stuff is my powercord fix (by Yellowsink#8156) */
+.wrapper-1Rf91z .wrapper-21YSNc [role="group"], .wrapper-1Rf91z .wrapper-21YSNc {
+	display: contents;
+}
+
+/* Delete the next 3 lines if you want to try figure out backgrounds */
+.wrapper-1Rf91z .expandedFolderBackground-2sPsd- {
+	display: none;
+}
+
+.wrapper-1Rf91z .wrapper-21YSNc [role="group"] .listItem-2P_4kh {
+	margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
+}
+
+.wrapper-1Rf91z .wrapper-21YSNc > .listItem-2P_4kh {
+	margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
+}
