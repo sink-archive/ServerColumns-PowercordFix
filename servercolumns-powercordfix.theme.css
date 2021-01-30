@@ -260,7 +260,8 @@ html .typingindicator-folder {
     width: auto;
 }
 
-.tutorialContainer-1v44GL + .listItem-2P_4kh {
+.tutorialContainer-1v44GL + .listItem-2P_4kh,
+.tutorialContainer-1v44GL + .listItem-2P_4kh + .listItem-2P_4kh { /* Last selector is a fix for the dm typing indicator plugin */
     flex: 0 0 93% !important; /* magic number go brrrrr */
     padding: 0 0 0 0 !important;
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important !important;
