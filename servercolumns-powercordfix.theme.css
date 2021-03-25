@@ -50,62 +50,67 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
     padding-right: calc(1px * ((var(--vguildsize) + 12 * var(--vguildsize)/50) * var(--vcolumns) * 2 - 40)) !important;
 }
-.titleBar-AC4pGV.typeMacOS-3EmCyP.typeMacOSWithFrame-3R_i5S .macButtons-2MuSAC {
+.titleBar-AC4pGV .typeMacOS-3EmCyP .typeMacOSWithFrame-3R_i5S .macButtons-2MuSAC {
     margin-top: 0 !important;
     margin-right: 0 !important;
 }
 .wrapper-3NnKdC {
     padding: 0 !important;
 }
-.wrapper-3NnKdC .scroller-2TZvBN {
+.wrapper-3NnKdC .scroller-1Bvpku {
     padding: 0 0 calc(10px * var(--vguildsize)/50) calc(10px * var(--vguildsize)/50) !important;
 }
-.wrapper-3NnKdC .scroller-2TZvBN.none-2Eo-qx::-webkit-scrollbar {
+.wrapper-3NnKdC .scroller-1Bvpku .none-2Eo-qx::-webkit-scrollbar {
     width: 0 !important;
 }
-.wrapper-3NnKdC .scroller-2TZvBN,
-.wrapper-3NnKdC .scroller-2TZvBN > [role="tree"],
-.wrapper-3NnKdC .listItem-2P_4kh + div[aria-label]:not([class]),
+.wrapper-3NnKdC .scroller-1Bvpku,
+.wrapper-3NnKdC .scroller-1Bvpku > [role="tree"],
+.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]),
 .BF-folderSidebar div[aria-label=Servers] { /* Fix for Better Folders (by solonovamax#6983 */
     margin: 0 !important;
     display: flex !important;
     flex-flow: row wrap !important;
     align-content: flex-start !important;
 }
-.wrapper-3NnKdC .listItem-2P_4kh {
+.wrapper-3NnKdC .listItem-GuPuDH {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 .wrapper-3NnKdC #server-search {
     margin: calc(1px * var(--vguildgap)) calc(1px * (((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2)) !important;
 }
-.wrapper-3NnKdC #server-search .pill-3YxEhL {
+.wrapper-3NnKdC #server-search .pill-1z4sAY {
     display: none;
 }
-.wrapper-3NnKdC .listItem-2P_4kh:first-child .listItemWrapper-3X98Pc {
+
+/*
+.wrapper-3NnKdC .listItem-GuPuDH:first-child .listItemWrapper-KhRmzM {
     margin: 0 calc(1px * (((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2)) calc(1px * var(--vguildgap)) calc(1px * ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2))) !important;
 }
-.wrapper-3NnKdC .listItem-2P_4kh:first-child .pill-1m5BUr ~ .listItemWrapper-3X98Pc {
+
+.wrapper-3NnKdC .listItem-GuPuDH:first-child .pill-1z4sAY ~ .listItemWrapper-KhRmzM {
     margin: 0 calc(1px * ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) * (1 - var(--valigndms)))) 0 calc(1px * (((0 * var(--valigndms)) + ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) * (1 - var(--valigndms)))))) !important;
 }
-.wrapper-3NnKdC .blobContainer-239gwq,
+*/
+
+.wrapper-3NnKdC .blobContainer-pmnxKB,
 .wrapper-3NnKdC .circleButtonMask-2VNJsN,
 .wrapper-3NnKdC .guildsError-b7zR5H {
     margin: 0 !important;
 }
-.wrapper-3NnKdC .listItem-2P_4kh {
+.wrapper-3NnKdC .listItem-GuPuDH {
     width: auto !important;
 }
 .wrapper-3NnKdC .placeholderMask-3K9THS,
 .wrapper-3NnKdC .svg-1X37T1,
-.wrapper-3NnKdC .wrapper-25eVIn {
+.wrapper-3NnKdC .wrapper-sa6paO { /* this stays as sa6paO */
     height: calc(1px * var(--vguildsize)) !important;
     width: calc(1px * var(--vguildsize)) !important;
 }
-.wrapper-3NnKdC .homeIcon-tEMBK1 {
+.wrapper-3NnKdC .homeIcon-FuNwkv {
     height: calc(1px * (var(--vguildsize) * (8/50) + 12)) !important;
     width: calc(1px * (var(--vguildsize) * (16/50) + 12)) !important;
 }
-.wrapper-3NnKdC .scroller-2TZvBN > div[style*="height"]:not([class]) {
+.wrapper-3NnKdC .scroller-1Bvpku > div[style*="height"]:not([class]) {
     height: calc(1px * var(--vguildsize) * (58/50)) !important;
 }
 .wrapper-3NnKdC .upperBadge-2XnnGB .base-PmTxvP {
@@ -120,33 +125,33 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 .wrapper-3NnKdC .lowerLeftBadge-zr4T_9 .base-PmTxvP {
     transform: translate(calc(-1.5px * ((50 - var(--vguildsize))/10)), calc(1.5px * ((50 - var(--vguildsize))/10))) scale(calc(var(--vguildsize)/50)) !important;
 }
-.wrapper-3NnKdC .wrapper-sa6paO {
+.wrapper-3NnKdC .wrapper-sa6paO { /* this stays as sa6pa0 */
     top: calc(-5px * var(--vguildsize)/50) !important;
     height: calc(1px * (var(--vguildsize) + 10 * var(--vguildsize)/50)) !important;
     transform: scale(calc(var(--vguildsize)/50)) !important;
     transform-origin: 0 50% !important;
 }
-.wrapper-3NnKdC .pill-2uzAFe {
+.wrapper-3NnKdC .pill-1z4sAY {
     left: calc(1px * ((((var(--vguildsize) + 10 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) - 9)) !important;
 }
-.wrapper-3NnKdC .pill-1m5BUr {
+.wrapper-3NnKdC .pill-1z4sAY {
     left: calc(1px * ((var(--valigndms) + ((((var(--vguildsize) + 10 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) * (1 - var(--valigndms)))) - 8)) !important;
 }
-.wrapper-3NnKdC .pill-31IEus,
-.wrapper-3NnKdC .pill-3YxEhL {
+.wrapper-3NnKdC .pill-1z4sAY,
+.wrapper-3NnKdC .pill-1z4sAY {
     left: calc(-10px * var(--vguildsize)/50) !important;
 }
-.wrapper-1Rf91z .guildSeparator-3s64Iy {
+.wrapper-3NnKdC .guildSeparator-33mFX6 {
     width: calc(1px * ((var(--vguildsize) + 12 * var(--vguildsize)/50) * var(--vcolumns) - (12 * var(--vguildsize)/50))) !important;
     margin: calc(1px * (var(--vguildsize)/10)) 0 !important;
     display: block !important;
 }
-.wrapper-3NnKdC [role=tree] ~ .listItem-2P_4kh .listItemWrapper-3X98Pc,
-.wrapper-3NnKdC [role=tree] ~ * .listItem-2P_4kh .listItemWrapper-3X98Pc,
-.wrapper-3NnKdC .listItem-2P_4kh + div[aria-label]:not([class]) ~ .listItem-2P_4kh .listItemWrapper-3X98Pc,
-.wrapper-3NnKdC .listItem-2P_4kh + div[aria-label]:not([class]) ~ * .listItem-2P_4kh .listItemWrapper-3X98Pc,
-.BF-folderSidebar div[aria-label=Servers] ~ .listItem-2P_4kh .listItemWrapper-3X98Pc, /* Fix for Better Folders (by solonovamax#6983) */
-.BF-folderSidebar div[aria-label=Servers] ~ * .listItem-2P_4kh .listItemWrapper-3X98Pc {
+.wrapper-3NnKdC [role=tree] ~ .listItem-GuPuDH .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC [role=tree] ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]) ~ .listItem-GuPuDH .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]) ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM,
+.BF-folderSidebar div[aria-label=Servers] ~ .listItem-GuPuDH .listItemWrapper-KhRmzM, /* Fix for Better Folders (by solonovamax#6983) */
+.BF-folderSidebar div[aria-label=Servers] ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM {
     margin: 0 !important;
 }
 .wrapper-3NnKdC .guildsError-b7zR5H {
@@ -197,26 +202,26 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
     width: 100% !important;
 }
 
-.wrapper-3NnKdC .wrapper-21YSNc {
+.wrapper-3NnKdC .wrapper-2q53zr {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
     width: calc(1px * var(--vguildsize)) !important;
 }
-.wrapper-3NnKdC .wrapper-21YSNc > .listItem-2P_4kh {
+.wrapper-3NnKdC .wrapper-2q53zr > .listItem-GuPuDH {
     margin: 0 !important;
 }
-.wrapper-3NnKdC .wrapper-21YSNc [role="group"] {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] {
     overflow: visible !important;
     margin-left: -1px !important;
     margin-bottom: -8px !important;
     padding-left: 1px !important;
 }
-.wrapper-3NnKdC .wrapper-21YSNc [role="group"] .listItem-2P_4kh {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH {
     margin: 6px 0 !important;
 }
-.wrapper-3NnKdC .wrapper-21YSNc [role="group"] .listItem-2P_4kh:last-child {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH:last-child {
     margin-bottom: 0 !important;
 }
-.wrapper-3NnKdC .expandedFolderBackground-2sPsd- {
+.wrapper-3NnKdC .expandedFolderBackground-1cujaW {
     width: calc(1px * var(--vguildsize)) !important;
     top: 0 !important;
     bottom: 0 !important;
@@ -235,20 +240,20 @@ html .typingindicator-folder {
 
 /* This stuff is my powercord fix (by Yellowsink#8156) */
 
-.wrapper-3NnKdC .wrapper-21YSNc [role="group"], .wrapper-3NnKdC .wrapper-21YSNc {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"], .wrapper-3NnKdC .wrapper-2q53zr {
     display: contents;
 }
 
 /* Delete the next 3 lines if you want to try figure out backgrounds */
-.wrapper-3NnKdC .expandedFolderBackground-2sPsd- {
+.wrapper-3NnKdC .expandedFolderBackground-1cujaW {
     display: none;
 }
 
-.wrapper-3NnKdC .wrapper-21YSNc [role="group"] .listItem-2P_4kh {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 
-.wrapper-3NnKdC .wrapper-21YSNc > .listItem-2P_4kh {
+.wrapper-3NnKdC .wrapper-2q53zr > .listItem-GuPuDH {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 
@@ -260,9 +265,28 @@ html .typingindicator-folder {
     width: auto;
 }
 
-.tutorialContainer-1v44GL + .listItem-2P_4kh,
-.tutorialContainer-1v44GL + .listItem-2P_4kh + .listItem-2P_4kh { /* Last selector is a fix for the dm typing indicator plugin */
+.tutorialContainer-2sGCg9 + .listItem-GuPuDH,
+.tutorialContainer-2sGCg9 + .listItem-GuPuDH + .listItem-GuPuDH { /* Last selector is a fix for the dm typing indicator plugin */
     flex: 0 0 93% !important; /* magic number go brrrrr */
     padding: 0 0 0 0 !important;
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important !important;
+}
+
+.tutorialContainer-2sGCg9 {
+    margin: auto;
+}
+
+/* 
+    Magic, probably.
+*/
+.wrapper-3Njo_c {
+    position: relative;
+    width: auto;
+}
+
+/*
+    More magic.
+*/
+.half-2cquxE {
+    flex-basis: auto;
 }
