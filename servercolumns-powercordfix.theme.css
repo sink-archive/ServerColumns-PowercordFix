@@ -21,6 +21,10 @@ Instead of importing the original theme, I've just copied it all into here.
     --valigndms: var(--aligndms, 1);
 }
 
+.listItem-GuPuDH {
+    justify-content: none !important;
+}
+
 .container-2lgZY8 {
     display: flex !important;
 }
