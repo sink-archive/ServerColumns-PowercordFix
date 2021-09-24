@@ -21,6 +21,11 @@ Instead of importing the original theme, I've just copied it all into here.
     --valigndms: var(--aligndms, 1);
 }
 
+.guilds-1SWlCJ div[aria-label=Servers] .listItem-GuPuDH {
+    justify-content: unset !important;
+}
+
+
 .container-2lgZY8 {
     display: flex !important;
 }
