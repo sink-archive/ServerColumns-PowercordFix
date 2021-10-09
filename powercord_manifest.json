@@ -1,7 +1,7 @@
 {
     "name": "ServerColumns Powercord Fix",
     "description": "Change the Server List to a gridlike container to allow servers to be displayed in columns. Amount of columns can be set in the .theme.css file",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "DevilBro, Yellowsink & solonovamax",
     "theme": "servercolumns-powercordfix.theme.css",
     "consent": ["ext_listing"],
