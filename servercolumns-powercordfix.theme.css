@@ -21,10 +21,13 @@ Instead of importing the original theme, I've just copied it all into here.
     --valigndms: var(--aligndms, 1);
 }
 
-.guilds-1SWlCJ div[aria-label=Servers] .listItem-GuPuDH {
+.guilds-1SWlCJ div[aria-label=Servers] .listItem-1hlISG {
     justify-content: unset !important;
 }
 
+.guilds-1SWlCJ ul[role=group] .listItem-1hlISG {
+    justify-content: unset !important;
+}
 
 .container-2lgZY8 {
     display: flex !important;
@@ -70,14 +73,14 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 }
 .wrapper-3NnKdC .scroller-1Bvpku,
 .wrapper-3NnKdC .scroller-1Bvpku > [role="tree"],
-.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]),
+.wrapper-3NnKdC .listItem-1hlISG + div[aria-label]:not([class]),
 .BF-folderSidebar div[aria-label=Servers] { /* Fix for Better Folders (by solonovamax#6983 */
     margin: 0 !important;
     display: flex !important;
     flex-flow: row wrap !important;
     align-content: flex-start !important;
 }
-.wrapper-3NnKdC .listItem-GuPuDH {
+.wrapper-3NnKdC .listItem-1hlISG {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 .wrapper-3NnKdC #server-search {
@@ -88,11 +91,11 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 }
 
 /*
-.wrapper-3NnKdC .listItem-GuPuDH:first-child .listItemWrapper-KhRmzM {
+.wrapper-3NnKdC .listItem-1hlISG:first-child .listItemWrapper-KhRmzM {
     margin: 0 calc(1px * (((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2)) calc(1px * var(--vguildgap)) calc(1px * ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2))) !important;
 }
 
-.wrapper-3NnKdC .listItem-GuPuDH:first-child .pill-1z4sAY ~ .listItemWrapper-KhRmzM {
+.wrapper-3NnKdC .listItem-1hlISG:first-child .pill-1z4sAY ~ .listItemWrapper-KhRmzM {
     margin: 0 calc(1px * ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) * (1 - var(--valigndms)))) 0 calc(1px * (((0 * var(--valigndms)) + ((((var(--vguildsize) + 12 * var(--vguildsize)/50) * (var(--vcolumns) - 1))/2) * (1 - var(--valigndms)))))) !important;
 }
 */
@@ -102,7 +105,7 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 .wrapper-3NnKdC .guildsError-b7zR5H {
     margin: 0 !important;
 }
-.wrapper-3NnKdC .listItem-GuPuDH {
+.wrapper-3NnKdC .listItem-1hlISG {
     width: auto !important;
 }
 .wrapper-3NnKdC .placeholderMask-3K9THS,
@@ -146,17 +149,17 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
 .wrapper-3NnKdC .pill-1z4sAY {
     left: calc(-10px * var(--vguildsize)/50) !important;
 }
-.wrapper-3NnKdC .guildSeparator-33mFX6 {
+.wrapper-3NnKdC .guildSeparator-EOYZLM {
     width: calc(1px * ((var(--vguildsize) + 12 * var(--vguildsize)/50) * var(--vcolumns) - (12 * var(--vguildsize)/50))) !important;
     margin: calc(1px * (var(--vguildsize)/10)) 0 !important;
     display: block !important;
 }
-.wrapper-3NnKdC [role=tree] ~ .listItem-GuPuDH .listItemWrapper-KhRmzM,
-.wrapper-3NnKdC [role=tree] ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM,
-.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]) ~ .listItem-GuPuDH .listItemWrapper-KhRmzM,
-.wrapper-3NnKdC .listItem-GuPuDH + div[aria-label]:not([class]) ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM,
-.BF-folderSidebar div[aria-label=Servers] ~ .listItem-GuPuDH .listItemWrapper-KhRmzM, /* Fix for Better Folders (by solonovamax#6983) */
-.BF-folderSidebar div[aria-label=Servers] ~ * .listItem-GuPuDH .listItemWrapper-KhRmzM {
+.wrapper-3NnKdC [role=tree] ~ .listItem-1hlISG .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC [role=tree] ~ * .listItem-1hlISG .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC .listItem-1hlISG + div[aria-label]:not([class]) ~ .listItem-1hlISG .listItemWrapper-KhRmzM,
+.wrapper-3NnKdC .listItem-1hlISG + div[aria-label]:not([class]) ~ * .listItem-1hlISG .listItemWrapper-KhRmzM,
+.BF-folderSidebar div[aria-label=Servers] ~ .listItem-1hlISG .listItemWrapper-KhRmzM, /* Fix for Better Folders (by solonovamax#6983) */
+.BF-folderSidebar div[aria-label=Servers] ~ * .listItem-1hlISG .listItemWrapper-KhRmzM {
     margin: 0 !important;
 }
 .wrapper-3NnKdC .guildsError-b7zR5H {
@@ -211,7 +214,7 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
     width: calc(1px * var(--vguildsize)) !important;
 }
-.wrapper-3NnKdC .wrapper-2q53zr > .listItem-GuPuDH {
+.wrapper-3NnKdC .wrapper-2q53zr > .listItem-1hlISG {
     margin: 0 !important;
 }
 .wrapper-3NnKdC .wrapper-2q53zr [role="group"] {
@@ -220,10 +223,10 @@ body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
     margin-bottom: -8px !important;
     padding-left: 1px !important;
 }
-.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-1hlISG {
     margin: 6px 0 !important;
 }
-.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH:last-child {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-1hlISG:last-child {
     margin-bottom: 0 !important;
 }
 .wrapper-3NnKdC .expandedFolderBackground-1cujaW {
@@ -254,11 +257,11 @@ html .typingindicator-folder {
     display: none;
 }
 
-.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-GuPuDH {
+.wrapper-3NnKdC .wrapper-2q53zr [role="group"] .listItem-1hlISG {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 
-.wrapper-3NnKdC .wrapper-2q53zr > .listItem-GuPuDH {
+.wrapper-3NnKdC .wrapper-2q53zr > .listItem-1hlISG {
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important;
 }
 
@@ -270,8 +273,8 @@ html .typingindicator-folder {
     width: auto;
 }
 
-.tutorialContainer-2sGCg9 + .listItem-GuPuDH,
-.tutorialContainer-2sGCg9 + .listItem-GuPuDH + .listItem-GuPuDH { /* Last selector is a fix for the dm typing indicator plugin */
+.tutorialContainer-2sGCg9 + .listItem-1hlISG,
+.tutorialContainer-2sGCg9 + .listItem-1hlISG + .listItem-1hlISG { /* Last selector is a fix for the dm typing indicator plugin */
     flex: 0 0 93% !important; /* magic number go brrrrr */
     padding: 0 0 0 0 !important;
     margin: calc(1px * var(--vguildgap)) calc(1px * (12 * var(--vguildsize)/50)) calc(1px * var(--vguildgap)) 0 !important !important;
@@ -294,4 +297,14 @@ html .typingindicator-folder {
 */
 .half-2cquxE {
     flex-basis: auto;
+}
+
+.wrapper-3Njo_c > [role="group"] {
+    height: auto !important;
+}
+
+/* #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.BF-folderSidebar > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(1) > div.listItem-1hlISG */
+
+.wrapper-3Njo_c .listItem-1hlISG {
+    display: inline-block;
 }
